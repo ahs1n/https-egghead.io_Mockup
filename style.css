@@ -1,0 +1,12 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    border: 1px solid black;
+    height: 127px;
+    width: 100%;
+    background-color: #141618;
+}
