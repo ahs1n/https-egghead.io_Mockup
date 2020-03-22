@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header
 {
@@ -9,4 +10,28 @@ header
     height: 127px;
     width: 100%;
     background-color: #141618;
+}
+
+/* Logo class css */
+.logo
+{
+    
+    display: flex;
+}
+.logo p
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bolder;
+    
+}
+.logo
+{
+    
+}
+.logo img
+{
+    width: 40px;
+    height: 40px;
 }
