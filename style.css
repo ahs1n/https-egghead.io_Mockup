@@ -99,3 +99,12 @@ header
     font-weight: 400;
     padding-left: 20px;
 }
+/* Section 1 start form here */
+.section_1
+{
+    height: 643px;
+    width: 100%;
+    background-color: #1F2835;
+    margin-top: 15px;
+    border: red 1px solid;
+}
