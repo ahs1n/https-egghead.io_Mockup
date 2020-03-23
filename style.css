@@ -1,5 +1,6 @@
 body
 {
+    background-color: yellow;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +9,7 @@ header
 {
     border: 1px solid red;
     height: 129px;
-    width: 90%;
+    width: 99.8%;
     background-color: #141618;
 }
 
@@ -85,7 +86,7 @@ header
 }
 .row_1 input
 {
-    width: 1277px;
+    width: 1255px;
     height: 45px;
     background-color: #21252D;
     margin-left: 40px;
@@ -102,7 +103,7 @@ header
 .section_1
 {
     height: 643px;
-    width: 90%;
+    width: 99.8;
     background-color: #1F2835;
     /* margin-top: 15px; */
     /* border: red 1px solid; */
@@ -170,7 +171,7 @@ header
 section
 {
     height: 5564px;
-    width: 90%;
+    width: 99.8;
     background-color: #F4F7F9;
     border: red 1px solid;
 
