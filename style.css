@@ -267,6 +267,13 @@ section
     padding-right: 20px;
     border: black 1px solid;
 }
+#hot_course
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hotcard_layout
 {
     height: 502px;
