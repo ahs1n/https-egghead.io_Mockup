@@ -275,3 +275,19 @@ section
     border-radius: 8px;
     margin-top: 20px;   
 }
+/* Section 3 group_of_working */
+.group_of_working
+{
+    border: black 1px solid;
+
+}
+.group_of_working_paragraph
+{
+    border: black 1px solid;
+
+}
+.group_of_working_links
+{
+    border: black 1px solid;
+
+}
