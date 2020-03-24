@@ -255,3 +255,23 @@ section
     margin-left: 15px;
     margin-right: 15px;
 }
+.hot_course
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: black 1px solid;
+}
+.hotcard_layout
+{
+    height: 502px;
+    width: 406px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;   
+}
