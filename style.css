@@ -266,6 +266,9 @@ section
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* border: #141618 1px solid; */
 }
 .card_layout_material
 {
