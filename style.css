@@ -238,29 +238,66 @@ section
     margin-top: 20px;
     
 }
-.course_rust
+.course
 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 60px;
+    text-align: center;
 }
-.course_rust img
+.course img
 {
     width: 225px;
     height: 215px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
-.course_rust_teacher
+.course p
+{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #141618;
+    padding-top: 5px;
+}
+.course h3
+{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.card_layout_material
 {
     display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: center;
 }
-.course_rust_teacher img
+.course_teacher
+{
+    display: flex;
+    align-items: center;
+    /* border: black solid 1px; */
+    padding-left: 15px;
+}
+.course_teacher img
 {
     height: 37px;
     width: 36px;
     border-radius: 50px;
     /* border: black solid 1px; */
+}
+
+.card_layout_lesson p
+{
+    margin-block-start:0em;
+    margin-block-end:0em;
+    padding-left: 10px;
+}
+.card_icon
+{
+    padding-right: 15px;
 }
 .card2_layout
 {
