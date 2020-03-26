@@ -260,6 +260,7 @@ section
     font-weight: 400;
     color: #141618;
     padding-top: 5px;
+    color: #ABACAC;
 }
 .course h3
 {
@@ -297,6 +298,7 @@ section
     margin-block-start:0em;
     margin-block-end:0em;
     padding-left: 10px;
+    color: #7e7e7e;
 }
 .card_icon
 {
@@ -317,19 +319,48 @@ section
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 25px;
 }
 .card2_layout img
 {
-    height: 162px;
-    width: 161px;
+    height: 167px;
+    width: 167px;
+    /* padding-bottom: 15px; */
+}
+.card2_layout p
+{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ABACAC;
+    /* padding-top: 10px; */
+    /* border: solid 1px black; */
+}
+#card2_coursetitle
+{
+    padding-top: 8px;
+}
+.card2_layout h3
+{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: black 1px solid; */
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
 }
 .card2_layout_material
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     align-items: center;
+    /* margin-top: 70px; */
     /* border: solid 1px black; */
+    margin-block-start: 10px;
 }
 .course2_teacher
 {
@@ -351,11 +382,12 @@ section
     margin-block-start:0em;
     margin-block-end:0em;
     padding-left: 10px;
+    color: #7e7e7e;
 }
 .card2_icon img
 {
     padding-right: 15px;
-    padding-left: 60px;
+    padding-left: 90px;
     height: 37px;
     width: 36px;
     /* border: black 1px solid; */
