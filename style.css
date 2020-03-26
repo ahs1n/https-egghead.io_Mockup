@@ -393,9 +393,7 @@ section
     /* border: black 1px solid; */
 
 }
-
-
-
+/* Section 3 Cards */
 .card3_layout
 {
     height: 107px;
@@ -405,6 +403,115 @@ section
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.card3-details
+{
+    display: flex;
+    border: solid 1px black;
+}
+.card3_icon
+{
+    /* border: black 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card3_icon img
+{
+    width: 27px;
+    height: 26px;
+    padding-left: 25px;
+}
+.card3_details
+{
+    padding-left: 20px;
+}
+.card3_details p
+{
+    margin-block-end: 15px;
+}
+.card3_details a
+{
+    font-style: normal;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 23px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+.card3_details img
+{
+    width: 26px;
+    height: 25px;
+    border-radius: 50%;
+}
+.card3_teacher
+{
+    display: flex;
+    /* border: black solid 1px; */
+    
+    align-items: center;
+}
+.name_lesson
+{
+    /* border: black solid 1px; */
+    display: flex;
+    align-items: center;
+}
+.card3_teacher p
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #63768d;
+    /* padding-top: 3px; */
+}
+.card3_teacher a
+{
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+}
+.card3_timing
+{
+    border: solid 1px black;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card3-git
+{
+    display: flex;
+    /* width: 18px; */
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.card3-git img
+{
+    height: 21px;
+}
+.card3-git p
+{
+    padding-left: 5px;
+}
+#clock
+{
+    padding-right: 15px;
 }
 .hot_course
 {
