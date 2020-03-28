@@ -616,3 +616,19 @@ section
     line-height: 28px;
     padding-right: 150px;
 }
+/* Follow Egg section */
+.follow_egg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.follow_link
+{
+    width: 1206px;
+    height: 363px;
+    border-radius: 6px;
+    /* border: black solid 1px; */
+    background-color: #ffffff;
+}
