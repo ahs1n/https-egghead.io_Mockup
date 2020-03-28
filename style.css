@@ -236,7 +236,6 @@ section
     background-color: #ffffff;
     border-radius: 8px;
     margin-top: 20px;
-    
 }
 .course
 {
@@ -561,14 +560,14 @@ section
     padding-top: 30px; */
 }
 
-.hotcard_layout
+/* .hotcard_layout
 {
     height: 502px;
     width: 406px;
     background-color: #ffffff;
     border-radius: 8px;
     margin-top: 20px;   
-}
+} */
 /* Section 3 group_of_working */
 .group_of_working
 {
