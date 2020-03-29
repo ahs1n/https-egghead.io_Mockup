@@ -737,12 +737,34 @@ footer
     height: 34px;
     width: 35px;
 }
-.content_about_icon p
+.content_about_icon a
 {
+    text-decoration: none;
     color: #fffffF;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 8px;
+}
+.content_about_list
+{
+    display: flex;
+}
+.content_about_list p
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D0D0B9;
+}
+.content_about_list ul li
+{
+    list-style: none;  
+    color: #BCBDBD; 
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 4oo;
+    padding-bottom: 7px;
 }
