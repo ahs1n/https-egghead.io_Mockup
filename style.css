@@ -596,7 +596,13 @@ section
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
+}
+.link_card img
+{
+    height: 43px;
+    width: 43px;
 }
 .group_of_working_paragraph
 {
