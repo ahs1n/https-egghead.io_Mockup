@@ -170,7 +170,7 @@ header
 }
 section
 {
-    height: 5564px;
+    height: 5600px;
     width: 100%;
     background-color: #F4F7F9;
     border: transparent 1px solid;   
@@ -599,7 +599,13 @@ section
     justify-content: center;
     flex-direction: column;
     border-radius: 4px;
-
+}
+.link_card p
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #696969;
 }
 .link_card img
 {
@@ -655,6 +661,7 @@ section
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 #follow_link_p
 {
@@ -672,5 +679,70 @@ footer
     width: 100%;
     height: 477px;
     background-color: #141618;
+    display: flex;
+    justify-content: space-around;
     /* border: solid black 1px; */
+}
+.content_about
+{
+    border: solid red 1px;
+    width: 50%;
+
+}
+.search_lesson
+{
+    border: solid red 1px;
+    width: 50%;
+}
+.search_lesson p    
+{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.search_lesson input
+{
+    height: 49px;
+    width: 375px;
+    background-color: #21252D;
+    border-radius: 4px;
+    border: none;
+}
+.search_lesson button
+{
+    height: 49px;
+    width: 53px;
+    background-color: #316AFF;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+.search_lesson_search
+{
+    height: 49px;
+    /* border: solid red 1px; */
+    width: 428px;
+    display: flex;
+}
+/* Content and About */
+.content_about_icon
+{
+    display: flex;
+    align-items: center;
+    border: red 1px solid;
+}
+.content_about_icon img
+{
+    height: 34px;
+    width: 35px;
+}
+.content_about_icon p
+{
+    color: #fffffF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
 }
