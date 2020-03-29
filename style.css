@@ -573,13 +573,15 @@ section
 {
     border: black 1px solid;
     display: flex;
+    justify-content: center;
+    align-items: center;
     /* margin-top: 30px; */
 
 }
 .group_of_working_links
 {
     border: black 1px solid;
-    height: 800px;
+    height: 650px;
     width: 546px;
     display: flex;
     flex-direction: row;
@@ -591,6 +593,10 @@ section
     height: 190px;
     width: 188px;
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .group_of_working_paragraph
 {
@@ -608,6 +614,7 @@ section
     font-size: 36px;
     font-weight: 500;
     line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .group_of_working_paragraph p
 {
@@ -615,6 +622,9 @@ section
     font-weight: 500;
     line-height: 28px;
     padding-right: 150px;
+    width: 500px;
+    margin-block-start: 0em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Follow Egg section */
 .follow_egg
