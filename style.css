@@ -687,12 +687,20 @@ footer
 {
     border: solid red 1px;
     width: 50%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 .search_lesson
 {
     border: solid red 1px;
+    height: 360px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .search_lesson p    
 {
