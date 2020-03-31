@@ -677,7 +677,7 @@ footer
 {
     /* padding-top: 30px; */
     width: 100%;
-    height: 477px;
+    height: 351px;
     background-color: #141618;
     display: flex;
     justify-content: space-around;
@@ -685,8 +685,8 @@ footer
 }
 .content_about
 {
-    border: solid red 1px;
-    width: 50%;
+    /* border: solid red 1px; */
+    width: 70%;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -695,14 +695,15 @@ footer
 }
 .search_lesson
 {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     height: 350px;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
 }
-.search_lesson p    
+.search_lesson p
 {
     font-size: 20px;
     line-height: 23px;
@@ -717,6 +718,12 @@ footer
     background-color: #21252D;
     border-radius: 4px;
     border: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 15px;
 }
 .search_lesson button
 {
@@ -738,7 +745,7 @@ footer
 {
     display: flex;
     align-items: center;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     padding-left: 30px;
     padding-top: 50px;
 }
@@ -746,16 +753,18 @@ footer
 {
     height: 34px;
     width: 35px;
+    padding-left: 8px;
+
 }
 .content_about_icon a
 {
     text-decoration: none;
     color: #fffffF;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: bolder;
     line-height: 18px;
+    padding-left: 4px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 8px;
 }
 .content_about_list
 {
@@ -772,9 +781,55 @@ footer
 .content_about_list ul li
 {
     list-style: none;  
+    padding-bottom: 7px;
+}
+.content_about_list ul li a
+{
+    text-decoration: none;
     color: #BCBDBD; 
     font-size: 16px;
     line-height: 24px;
-    font-weight: 4oo;
-    padding-bottom: 7px;
+    font-weight: 400;
+}
+hr
+{
+    /* width: 80%; */
+    
+}
+#hr2
+{
+    /* margin-top: 80px; */
+}
+.footer_2
+{
+    height: 126px;
+    width: 100%;
+    background-color: #141618;
+    display: flex;
+    justify-content: center;
+}
+.footer_2_line
+{
+    width: 95%;
+    border-top: 1px solid #202228;
+    display: flex;
+}
+.footer_2_line a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #626567; 
+    /* margin-top: 50px; */
+    padding-right: 30px;
+    /* border: red 1px solid; */
+}
+.footer_2_line p
+{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #626567;
 }
