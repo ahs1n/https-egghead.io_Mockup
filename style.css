@@ -733,6 +733,11 @@ footer
     border: none;
     border-radius: 0 4px 4px 0;
 }
+.search_lesson button img
+{
+    height: 30px;
+    width: 30px;
+}
 .search_lesson_search
 {
     height: 49px;
